@@ -10,7 +10,7 @@
             width: 100vw;
             height: 100vh;
             background-color: rgb(153, 201, 239);
-            overflow:hidden;
+            scroll-behavior: unset;
         }
         #photo-cont{
             margin-top: 10vh;
@@ -19,6 +19,7 @@
             position: absolute;
             top:15%;
             left:50%;
+            z-index: 100;
             transform: translate(-50%,-50%);
         }
         #photo-cont #photo{
@@ -49,7 +50,7 @@
             background-color: rgb(159, 176, 250);
             border-radius: 50%;
             position: absolute;
-            top: 110%;
+            top: 90%;
             left: 50%;
             transform: translate(-50%,-50%);
         }
